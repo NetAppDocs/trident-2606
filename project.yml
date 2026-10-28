@@ -1,6 +1,7 @@
 ---
 settings:
   name: Trident
+  downlevel: true
   internal:
     pdf_enabled: true
   prod:
@@ -9,6 +10,8 @@ settings:
   rss_page: "trident-rn.html"
   versions:
     - version-number: "26.06"
+      url: /trident-2606
+    - version-number: "26.10"
       url: /trident
     - version-number: "26.02"
       url: /trident-2602
@@ -27,9 +30,7 @@ settings:
     - version-number: "23.10"
       url: /trident-2310   
     - version-number: "23.07"
-      url: /trident-2307      
-    - version-number: "23.04"
-      url: /trident-2304      
+      url: /trident-2307         
                         
 sidebar:
   entries:
