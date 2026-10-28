@@ -1,14 +1,66 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
+  title: Trident 26.06 documentation
+  lead: Trident is an open source storage provisioner and orchestrator maintained by NetApp. It enables you to create storage volumes for containerized applications managed by Docker and Kubernetes.
+  summary: Trident is an open source storage provisioner and orchestrator maintained by NetApp. It enables you to create storage volumes for containerized applications managed by Docker and Kubernetes.
+  keywords: trident, 2602, documentation, release notes, get started, deploy, upgrade, use, data management, protection, demos, tutorials, blogs, community
   tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+    - title: Release notes 
+      links:
+        - title: What’s new
+          url: trident-rn.html   
+        - title: Earlier versions
+          url: /earlier-versions.html
+        - title: Trident support for ASA r2 storage systems
+          url: /trident-asar2-support.html
+    - title: Get started
+      links:
+        - title: Learn about Trident
+          url: /trident-get-started/intro.html
+        - title: Requirements
+          url: /trident-get-started/requirements.html
+        - title: Quick start
+          url: /trident-get-started/quickstart.html        
+    - title: Deploy Trident
+      links:
+        - title: Deploy with the Trident operator
+          url: /trident-install/kubernetes-deploy-operator.html
+        - title: Deploy with tridentctl
+          url: /trident-install/kubernetes-deploy-tridentctl.html
+        - title: Deploy Trident for Docker
+          url: /trident-docker/deploy-docker.html
+    - title: Upgrade Trident
+      links:
+        - title: Upgrade with Trident operator
+          url: /trident-managing-k8s/upgrade-operator.html
+        - title: Upgrade with tridentctl
+          url: /trident-managing-k8s/upgrade-tridentctl.html
+    - title: Use Trident
+      links:
+        - title: Prepare the worker node
+          url: /trident-use/worker-node-prep.html
+        - title: Configure backends
+          url: /trident-use/backends.html
+        - title: Manage storage classes
+          url: /trident-use/manage-stor-class.html
+        - title: Perform volume operations
+          url: /trident-use/vol-operations.html
+    - title: Advanced data management and protection
+      links:
+        - title: Advanced data protection with Trident Protect
+          url: /trident-protect/learn-about-trident-protect.html
+        - title: Deploy Trident Protect
+          url: /trident-protect/trident-protect-installation.html
+        - title: Upgrade Trident Protect
+          url: /trident-protect/trident-protect-upgrade.html
+    - title: Demos & tutorials
+      links:
+        - title: Trident videos
+          url: https://media.netapp.com/video-detail/c5bebae0-aab6-5fed-ae16-df6a3a8b260d/netapp-trident-advanced-data-protection-for-kubernetes-applications
+    - title: Blogs & community
+      links:
+        - title: Trident and Trident Protect blogs
+          url: /blog-posts.html
+        - title: NetApp.io
+          url: https://netapp.io/
+        - title: Discord
+          url: https://discord.gg/NetApp 
